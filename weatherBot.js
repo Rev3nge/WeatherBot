@@ -2,8 +2,8 @@
 const Telegraf = require('telegraf');
 const fetch = require('node-fetch');
 
-const bot = new Telegraf('7575915540:AAG2jRZ9N0rozG6tVhQ8HwpXcuxw5SKy2Rw'); // Замените на ваш токен
-const OPENWEATHER_API_KEY = '213b2ad174fa0c790d402e0d8e640d97'; // Замените на ваш ключ API
+const bot = new Telegraf('TOKEN'); // Замените на ваш токен
+const OPENWEATHER_API_KEY = 'ApiOpenWeather'; // Замените на ваш ключ API
 
 bot.start((ctx) => {
     ctx.reply('Привет! Напиши мне название города, и я отправлю тебе текущую погоду.');
